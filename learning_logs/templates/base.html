@@ -6,10 +6,10 @@
     <title>Learning Log</title>
 </head>
 <body>
-    <a href="{% url 'index' %}">
-    <h1>Learning Log</h1>
-    </a>
+    <a href="{% url 'index' %}"><h1>Learning Log</h1></a>
     <a href="{% url 'topics' %}">Topics</a>
+    <br>
+    <a href="/admin">Página admin</a>
      {% block content %}
     {% endblock content %}
 </body>
